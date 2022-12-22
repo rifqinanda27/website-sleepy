@@ -1,0 +1,193 @@
+@font-face{
+	font-family: Poppins;
+	src: url(.../fonts/Poppins-Regular.ttf);
+}
+
+body{
+	font-family: Poppins;
+}
+
+.margin{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.padding{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.padding-custom{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.padding-custom2{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.font-heading{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+	.font-heading{
+        font-size: 30px;
+    }
+    .padding-custom3{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .padding-custom4{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+  }
+
+ /* Button */
+
+.button {
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.5s;
+	cursor: pointer;
+  }
+
+.button1{
+	background-color: white;
+	color: black;
+	border: 2px solid #6246FA;
+}
+
+.button1:hover{
+	background-color: #6246FA;
+	color: white;
+	box-shadow:  0 8px 16px 0 rgba(138, 138, 138, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2{
+	background-color: #6246FA;
+	color: rgb(255, 255, 255);
+	border: 2px solid #6246FA;
+}
+
+.button2:hover{
+	background-color: #d8d8d8;
+	color: #6246FA;
+	box-shadow:  0 8px 16px 0 rgba(138, 138, 138, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button3{
+	background-color: white;
+	color: #303030;
+	border: 2px solid #303030;
+}
+
+.button3:hover{
+	background-color: #303030;
+	color: white;
+	box-shadow:  0 8px 16px 0 rgba(138, 138, 138, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Image Card Settings */
+
+.image-card{
+	width: 100%;
+	transition: 0.5s;
+}
+
+.image-card:hover{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.image-card2{
+    transition: 0.5s;
+}
+
+.image-card2:hover{
+    transform: scale(1.1);
+}
+
+.cardbody{
+    background-color: #F9F9F9;
+    padding: 50px;
+    width: 420px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.cardbody{
+        width: 290px;
+        height: 290px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+	.cardbody{
+        width: 180px;
+        height: 200px;
+    }
+  }
+@media only screen and (max-width: 425px){
+    .cardbody{
+        width: 100%;
+        height: 100%;
+    }
+
+    .padding-custom5{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+  
+/* Backgound Color */
+
+.bg-color{
+	background-color: #6246FA;
+}
+
+.bg-color1{
+	background-color: #F9F9F9;
+}
+
+/* Section */
+.about{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/* Go to Top Button */
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #6246FA;
+	bottom: 40px;
+	right: 50px;
+	border-radius: 10px;
+
+	transition: 0.5s;
+
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.gotopbtn:hover{
+	background: white;
+	color: #6246FA;
+	transform: scale(1.1);
+}
